@@ -1,0 +1,72 @@
+{
+  "version": "turnstile.witness-registry-epoch.v1",
+  "registry_id": "registry:strata-poc",
+  "epoch_id": "registry_epoch_tinfoil_poc_001",
+  "valid_from": "2026-05-05T20:22:27.172Z",
+  "valid_until": "2026-05-06T20:23:27.172Z",
+  "published_at": "2026-05-05T20:23:27.172Z",
+  "witnesses": [
+    {
+      "witness_id": "strata-witness-poc-1",
+      "witness_epoch_id": "wit_epoch_tinfoil_poc_001",
+      "key_id": "witness:strata-witness-poc-1:epoch-001",
+      "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAMsCbIXJuLDxjUhjTxsPn8reWVb0uO81QJrpp+wZqSHA=\n-----END PUBLIC KEY-----\n",
+      "tier": "mechanical",
+      "authorized_workflows": [
+        "demo.payment"
+      ],
+      "authorized_policy_hashes": [
+        "policy_hash_tinfoil_witness_poc"
+      ],
+      "valid_from": "2026-05-05T20:22:27.172Z",
+      "valid_until": "2026-05-06T20:23:27.172Z",
+      "status": "active",
+      "status_events": [
+        {
+          "status": "active",
+          "effective_at": "2026-05-05T20:22:27.172Z"
+        }
+      ],
+      "attestation": {
+        "platform": "tinfoil-containers",
+        "ref": "https://strata-witness-poc-1.amotivv.containers.tinfoil.dev/.well-known/tinfoil-attestation"
+      },
+      "guard_log": {
+        "backend": "s3-object-lock",
+        "s3_bucket": "strata-witness-poc-guard-log-345337478194",
+        "s3_prefix": "witnesses/strata-witness-poc-1",
+        "object_lock_mode": "GOVERNANCE",
+        "retention_policy": "minutes:60"
+      }
+    }
+  ],
+  "gateways": [
+    {
+      "gateway_id": "gateway:strata-poc-demo",
+      "key_id": "gateway:strata-poc-demo:epoch-tinfoil-001",
+      "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAbj6FNtR4xCF0moqDudpBzVuN7MGObLG6Tk5AwGYh2eg=\n-----END PUBLIC KEY-----\n",
+      "authorized_workflows": [
+        "demo.payment"
+      ],
+      "authorized_policy_hashes": [
+        "policy_hash_tinfoil_witness_poc"
+      ],
+      "valid_from": "2026-05-05T20:22:27.172Z",
+      "valid_until": "2026-05-06T20:23:27.172Z",
+      "status": "active",
+      "status_events": [
+        {
+          "status": "active",
+          "effective_at": "2026-05-05T20:22:27.172Z"
+        }
+      ]
+    }
+  ],
+  "signatures": [
+    {
+      "key_id": "registry-authority:strata-poc:epoch-tinfoil-001",
+      "alg": "Ed25519",
+      "sig": "oQZ6tGLf4N7N4qvh0cdtsORznhe8xwriX9UhhFfJb-zVk_XtTJXoFOF5Be6mEPLVc0QqGbR1u9OBYgwv4LJcCQ"
+    }
+  ]
+}
