@@ -4,7 +4,7 @@ memory: 8192
 
 containers:
   - name: "witness"
-    image: "ghcr.io/theforkproject-dev/strata-ebo-turnstile:tinfoil-witness-poc-001@sha256:06d996936e2885d729b5d6bd3e6d465f75e60ff2c1f908f77ed4ded593df36a0"
+    image: "ghcr.io/theforkproject-dev/strata-ebo-turnstile:tinfoil-witness-poc-002@sha256:d2af57a30e4a7fc7d0c19d1dba0f507f43b9bcc53c96a9eecc41b83798e96bdf"
     env:
       - PORT: "8080"
       - HOST: "0.0.0.0"
@@ -23,7 +23,6 @@ containers:
       - WITNESS_S3_RETENTION_MINUTES: "60"
       - WITNESS_EPOCH_ID: "wit_epoch_tinfoil_poc_001"
       - REGISTRY_EPOCH_ID: "registry_epoch_tinfoil_poc_001"
-      - WITNESS_EXPECTED_WORKFLOW_ID: "demo.payment"
       - WITNESS_ATTESTATION_REF: "https://strata-witness-poc-1.amotivv.containers.tinfoil.dev/.well-known/tinfoil-attestation"
       - WITNESS_REGISTRY_EPOCH_URL: "https://raw.githubusercontent.com/theforkproject-dev/strata-witness-poc-1/main/registry-epoch.json"
       - WITNESS_REGISTRY_TRUST_ANCHORS_URL: "https://raw.githubusercontent.com/theforkproject-dev/strata-witness-poc-1/main/registry-trust-anchors.json"
