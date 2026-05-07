@@ -2,9 +2,9 @@
   "version": "turnstile.witness-registry-epoch.v1",
   "registry_id": "registry:strata-poc",
   "epoch_id": "registry_epoch_tinfoil_poc_002",
-  "valid_from": "2026-05-05T21:25:45.684Z",
-  "valid_until": "2026-05-06T21:26:45.684Z",
-  "published_at": "2026-05-05T21:26:45.684Z",
+  "valid_from": "2026-05-07T13:18:04.224Z",
+  "valid_until": "2026-06-06T13:19:04.224Z",
+  "published_at": "2026-05-07T13:19:04.224Z",
   "witnesses": [
     {
       "witness_id": "strata-witness-poc-1",
@@ -20,13 +20,13 @@
         "policy_hash_tinfoil_witness_poc",
         "1c5a90c054c5011e93512f155caa937ecf08107a7f8ccd4de85aea8c14c3fffa"
       ],
-      "valid_from": "2026-05-05T21:25:45.684Z",
-      "valid_until": "2026-05-06T21:26:45.684Z",
+      "valid_from": "2026-05-07T13:18:04.224Z",
+      "valid_until": "2026-06-06T13:19:04.224Z",
       "status": "active",
       "status_events": [
         {
           "status": "active",
-          "effective_at": "2026-05-05T21:25:45.684Z"
+          "effective_at": "2026-05-07T13:18:04.224Z"
         }
       ],
       "attestation": {
@@ -55,13 +55,13 @@
         "policy_hash_tinfoil_witness_poc",
         "1c5a90c054c5011e93512f155caa937ecf08107a7f8ccd4de85aea8c14c3fffa"
       ],
-      "valid_from": "2026-05-05T21:25:45.684Z",
-      "valid_until": "2026-05-06T21:26:45.684Z",
+      "valid_from": "2026-05-07T13:18:04.224Z",
+      "valid_until": "2026-06-06T13:19:04.224Z",
       "status": "active",
       "status_events": [
         {
           "status": "active",
-          "effective_at": "2026-05-05T21:25:45.684Z"
+          "effective_at": "2026-05-07T13:18:04.224Z"
         }
       ]
     }
@@ -70,7 +70,7 @@
     {
       "key_id": "registry-authority:strata-poc:epoch-tinfoil-001",
       "alg": "Ed25519",
-      "sig": "GQjuIeWI4m1JBWNU2Sd6saw_8vTQmq-xI4T-KbVUW4GeYzMTxBGBL08F161yiaukyH3YTNrX8RMDRyr1LcY-CQ"
+      "sig": "FwAmqzt0555E6xO8yctPEvmklVcw8cY3oc8WmacRAAObVi9NofLH9IqS9XmoobVAi8O8HkYLQdacLQn1Vra2CA"
     }
   ]
 }
